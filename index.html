@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SMOLD & Co. — a demo homeware & living storefront. Browse, filter, and add to a live cart." />
+  <title>SMOLD & Co. — Storefront Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="SMOLD &amp; Co. home">
+        <span class="brand-mark">S</span>
+        <span class="brand-text">SMOLD&nbsp;&amp;&nbsp;Co.<small>Home&nbsp;&amp;&nbsp;Living</small></span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#collection">Collection</a>
+        <a href="#story">Our Story</a>
+      </nav>
+      <button class="cart-btn" id="open-cart" aria-label="Open basket">
+        <span class="cart-icon" aria-hidden="true">🧺</span>
+        Basket
+        <span class="cart-count" id="cart-count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Demo storefront · in development</p>
+      <h1>Considered things<br />for an everyday home.</h1>
+      <p class="hero-sub">
+        A fully interactive shop front built from scratch. Browse the collection,
+        filter by category, and fill your basket — the totals update live.
+      </p>
+      <a class="btn btn-primary" href="#collection">Shop the collection</a>
+    </div>
+  </section>
+
+  <!-- ===== Collection ===== -->
+  <main class="wrap" id="collection">
+    <div class="collection-head">
+      <h2>The Collection</h2>
+      <div class="filters" id="filters" role="group" aria-label="Filter products by category">
+        <!-- Filter buttons are inserted by app.js -->
+      </div>
+    </div>
+    <div class="product-grid" id="product-grid">
+      <!-- Product cards are inserted by app.js -->
+    </div>
+  </main>
+
+  <!-- ===== Story strip ===== -->
+  <section class="story" id="story">
+    <div class="wrap story-inner">
+      <h2>Built to be swapped in minutes.</h2>
+      <p>
+        This is a product-agnostic demo. Every item you see lives in one clearly
+        labelled list, so the real catalogue can drop straight in. Checkout and
+        payments are the next stage of the build.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span>© <span id="year"></span> SMOLD &amp; Co.</span>
+      <span class="footer-note">Demo build · not a live shop yet</span>
+    </div>
+  </footer>
+
+  <!-- ===== Cart drawer ===== -->
+  <div class="cart-overlay" id="cart-overlay" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Your basket" aria-hidden="true">
+    <div class="cart-drawer-head">
+      <h2>Your basket</h2>
+      <button class="cart-close" id="close-cart" aria-label="Close basket">×</button>
+    </div>
+    <div class="cart-items" id="cart-items">
+      <!-- Cart line items are inserted by app.js -->
+    </div>
+    <div class="cart-foot">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <strong id="cart-total">£0.00</strong>
+      </div>
+      <button class="btn btn-primary btn-block" id="checkout">Checkout</button>
+      <p class="cart-note" id="checkout-note" hidden>
+        Checkout is coming soon — this demo shows the shopping experience.
+      </p>
+    </div>
+  </aside>
+
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
