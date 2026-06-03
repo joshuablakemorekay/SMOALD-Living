@@ -1,62 +1,39 @@
-# SMOLD & Co. — Storefront Demo
+# SMOLD & Co. — Ecommerce Storefront
 
-A polished, interactive ecommerce shop front built from scratch with plain HTML, CSS and JavaScript — **no frameworks, no build step.** Open the page and you can browse a product collection, filter by category, and fill a live slide-out basket where the totals update as you go.
+An interactive online shop front for a homeware & lifestyle brand: browse the collection, filter by category, and fill a live basket. Built from scratch as a working demo of a real storefront.
 
-> **Status:** Demo build. The shopping experience is fully working. Checkout and payments are the next planned stage.
+🌐 **Live demo → https://mungmanbaoisan.github.io/smold-storefront/**
 
-## ✨ What it does
+> Demo build — the shopping experience is fully working. Checkout and payments are the next stage.
 
-- **Browse the collection** — a responsive grid of product cards that reflows neatly from mobile to desktop.
-- **Filter by category** — the filter buttons are generated automatically from the product list, so they always stay in sync.
-- **Live basket** — add items, change quantities, and watch the count and total update instantly in a slide-out drawer.
-- **Loads anywhere, instantly** — product visuals are done in pure CSS (no image files to download), so it opens fast and screenshots cleanly.
+## What It Does
+- 🛍️ **Browse a product collection** that looks great on phone, tablet and desktop
+- 🔍 **Filter by category** at a tap — the buttons build themselves from the product list
+- 🧺 **Live basket** — add items, adjust quantities, and watch the total update instantly in a slide-out drawer
+- ⚡ **Loads instantly anywhere** — product visuals are pure CSS, so there are no image files to wait for
+- 🔄 **Swap in a real catalogue in minutes** — every product lives in one clearly-labelled file
 
-## 🧩 Built to be swapped
+## Built With
+- **HTML5** — the page structure
+- **CSS3** — the styling (custom properties, grid, flexbox, responsive design)
+- **Vanilla JavaScript** — the cart and filter logic, with no frameworks and no build step
 
-The whole shop is **product-agnostic**. Every item lives in one clearly-labelled file — `js/products.js` — so a real catalogue can drop straight in. Edit that one list and the page rebuilds itself: cards, prices, categories and filters all update automatically.
+## How to Run It
+No installation needed:
+1. Download or clone this repository
+2. Open `index.html` in any web browser
 
-```js
-{
-  id: 1,
-  name: "Stoneware Mug",
-  cat: "Kitchen",
-  price: 18.00,
-  blurb: "Hand-glazed, holds a generous brew.",
-  icon: "☕",
-  color: "linear-gradient(135deg, #b5552d, #8a3d1f)",
-}
-```
+That's it — or just click the **live demo** link above. To change the products, edit the one labelled list in `js/products.js` and the page rebuilds itself.
 
-## 🗂️ How it's organised
+## My Journey
+**2026-06-03 — Storefront goes live.** Rebuilt the shop in Claude Code as a real, organised project and deployed it live to GitHub Pages. Decided to do both: code this version now, and build a Shopify version later. **Key lesson:** new GitHub repos default to private, and Pages won't publish a private repo on the free plan — so the link 404'd until I switched it to public. A live, clickable demo plus a public repo is far stronger portfolio proof than a screenshot.
 
-```
-smold-storefront/
-├── index.html        The page structure
-├── css/styles.css    All the styling
-├── js/products.js    The product list (edit this to change the shop)
-└── js/app.js         Cart, filter and drawer logic
-```
-
-Splitting structure, style and behaviour into separate files keeps the project easy to read and maintain — the same way a larger production site would be organised.
-
-## ▶️ Run it
-
-No installation needed. Just open `index.html` in any web browser.
-
-## 🛠️ Built with
-
-- HTML5
-- CSS3 (custom properties, grid, flexbox, responsive design)
-- Vanilla JavaScript (no libraries)
-
-## 🗺️ Roadmap
-
-- [x] Product browsing and category filtering
-- [x] Live slide-out basket with quantity controls
-- [ ] Checkout flow
-- [ ] Payment integration
-- [ ] Real product catalogue
+## What's Next
+- [ ] Add a real product catalogue
+- [ ] Build the checkout flow
+- [ ] Integrate payments
+- [ ] Create a Shopify version
 
 ---
 
-Built by **Josh Kay** · [github.com/MungManBaoIsan](https://github.com/MungManBaoIsan)
+*Built by Josh Kay · [github.com/MungManBaoIsan](https://github.com/MungManBaoIsan)*
