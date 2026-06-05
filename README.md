@@ -2,7 +2,7 @@
 
 An interactive online shop front for a homeware & lifestyle brand: browse the collection, filter by category, and fill a live basket. Built from scratch as a working demo of a real storefront.
 
-🌐 **Live demo → https://mungmanbaoisan.github.io/smold-storefront/**
+🌐 **Live demo → https://joshuablakemorekay.github.io/smold-storefront/**
 
 > Demo build — the shopping experience is fully working. Checkout and payments are the next stage.
 
@@ -36,4 +36,4 @@ That's it — or just click the **live demo** link above. To change the products
 
 ---
 
-*Built by Josh Kay · [github.com/MungManBaoIsan](https://github.com/MungManBaoIsan)*
+*Built by Josh Kay · [github.com/joshuablakemorekay](https://github.com/joshuablakemorekay)*
