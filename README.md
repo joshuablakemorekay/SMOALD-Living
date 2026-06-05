@@ -36,4 +36,4 @@ That's it — or just click the **live demo** link above. To change the products
 
 ---
 
-*Built by Josh Kay · [github.com/joshuablakemorekay](https://github.com/joshuablakemorekay)*
+*Built by Joshua Kay · [github.com/joshuablakemorekay](https://github.com/joshuablakemorekay)*
