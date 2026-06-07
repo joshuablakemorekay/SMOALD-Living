@@ -2,7 +2,7 @@
 
 An interactive online shop front for a homeware & lifestyle brand: browse the collection, filter by category, and fill a live basket. Built from scratch as a working demo of a real storefront.
 
-🌐 **Live demo → https://joshuablakemorekay.github.io/smold-storefront/**
+🌐 **Live demo → https://joshuablakemorekay.github.io/smold-shop/**
 
 > Demo build — the shopping experience is fully working. Checkout and payments are the next stage.
 
@@ -26,7 +26,9 @@ No installation needed:
 That's it — or just click the **live demo** link above. To change the products, edit the one labelled list in `js/products.js` and the page rebuilds itself.
 
 ## My Journey
-**2026-06-03 — Storefront goes live.** Rebuilt the shop in Claude Code as a real, organised project and deployed it live to GitHub Pages. Decided to do both: code this version now, and build a Shopify version later. **Key lesson:** new GitHub repos default to private, and Pages won't publish a private repo on the free plan — so the link 404'd until I switched it to public. A live, clickable demo plus a public repo is far stronger portfolio proof than a screenshot.
+**2026-06-03 — Storefront goes live.** Rebuilt the shop in Claude Code as a real, organised project and deployed it live to GitHub Pages. Decided to do both: code this version now, and build a Shopify version later.
+
+**2026-06-07 — Fixed the live link for good.** The demo 404'd, and the fix had two parts I'd half-learned before. **First:** a new repo is private by default, and GitHub Pages won't publish a private repo on the free plan — but making it public is only step one. **Pages is a separate switch you still have to turn on** (Settings → Pages → build from `main`); going public alone does nothing. **Second:** Pages always serves at `your-name.github.io/<repo-name>/`, so the URL has to use the *real* repo name (`smold-shop`) — the old `smold-storefront` link was always going to 404. **Key lesson:** a live, clickable demo on a public repo is far stronger portfolio proof than a screenshot — but only if the link actually loads, so always tap it yourself before sending it to anyone.
 
 ## What's Next
 - [ ] Add a real product catalogue
