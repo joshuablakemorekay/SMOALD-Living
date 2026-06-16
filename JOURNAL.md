@@ -1,20 +1,27 @@
 # Project Journal — SMOALD Living Storefront
 
-## 2026-06-16 — Rebranded to SMOALD Living
+## 2026-06-16 — SMOALD Living: rebranded and live under the Store
 
 **TL;DR**
-- Renamed the shop from "SMOLD & Co." to **SMOALD Living** so it fits under the wider SMOALD brand family.
-- Moved the project to its own repo, `SMOALD-Living`, which becomes the home going forward.
-- A rebrand touches more places than you expect — page title, header, footer, code comments, README and journal all had the old name.
+- Renamed the shop from "SMOLD & Co." to **SMOALD Living** and moved it to its own repo (`SMOALD-Living`).
+- It's now the **first live product** linked from the SMOALD Store on smoald.com.
+- Renaming meant updating not just the app, but the hub site that links to it.
 
-### What I did
-Went through every file and swapped the old name for the new one: the page `<title>` and meta description, the header logo and its "Home & Lifestyle" tagline, the footer copyright, the comment headers in the CSS and JavaScript, and both the README and this journal. Then pointed the live-demo link at the new repo and pushed.
+### What I built
+Rebranded the whole storefront to SMOALD Living, gave it its own home repo with a working live demo, and wired that live link into the SMOALD.com hub — so the Store now points to a real, shipped product, not a "coming soon" card.
+
+### How We Did It
+1. Read every file to find each place the old name lived.
+2. Swapped "SMOLD & Co." → "SMOALD Living" across the page, CSS/JS comments, README and journal.
+3. Pointed this folder's git remote at the `SMOALD-Living` repo and pushed (a clean fast-forward).
+4. Confirmed GitHub Pages was serving the new live link.
+5. On smoald.com, turned the Store's "Living" card into a live link and softened the "coming soon" wording.
 
 ### What I learned
-A brand name isn't in one place — it's scattered across the page, the code comments, and the docs. Doing a careful find-and-replace across the whole project (not just the visible page) is what makes a rename feel clean rather than half-done. Keeping the older journal entries as-is also keeps an honest record of how the project's name evolved.
+A brand name isn't in one place — it's scattered across the page, the code comments, the docs, and even other sites that link to it. A careful sweep across the whole project is what makes a rename feel finished, not half-done.
 
 ### Next steps
-Same as before — add real products, build checkout and payments, and explore a Shopify version — now under the SMOALD Living name.
+Add a real product catalogue, build checkout and payments, and explore a Shopify version — now under the SMOALD Living name.
 
 ---
 
