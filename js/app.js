@@ -1,5 +1,5 @@
 /* =========================================================
-   SMOLD Company Ltd — storefront logic
+   SMOALD Living — storefront logic
    Renders products, handles the category filter, and runs a
    live slide-out basket. Reads its data from products.js.
    No frameworks, no build step — just clean vanilla JS.

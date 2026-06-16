@@ -1,4 +1,22 @@
-# Project Journal — SMOLD & Co. Storefront
+# Project Journal — SMOALD Living Storefront
+
+## 2026-06-16 — Rebranded to SMOALD Living
+
+**TL;DR**
+- Renamed the shop from "SMOLD & Co." to **SMOALD Living** so it fits under the wider SMOALD brand family.
+- Moved the project to its own repo, `SMOALD-Living`, which becomes the home going forward.
+- A rebrand touches more places than you expect — page title, header, footer, code comments, README and journal all had the old name.
+
+### What I did
+Went through every file and swapped the old name for the new one: the page `<title>` and meta description, the header logo and its "Home & Lifestyle" tagline, the footer copyright, the comment headers in the CSS and JavaScript, and both the README and this journal. Then pointed the live-demo link at the new repo and pushed.
+
+### What I learned
+A brand name isn't in one place — it's scattered across the page, the code comments, and the docs. Doing a careful find-and-replace across the whole project (not just the visible page) is what makes a rename feel clean rather than half-done. Keeping the older journal entries as-is also keeps an honest record of how the project's name evolved.
+
+### Next steps
+Same as before — add real products, build checkout and payments, and explore a Shopify version — now under the SMOALD Living name.
+
+---
 
 ## 2026-06-03 — SMOLD & Co. storefront goes live
 
